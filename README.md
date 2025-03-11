@@ -1,4 +1,4 @@
-# nuxt-mcp
+# nuxt-mcp / vite-plugin-mcp
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -6,7 +6,15 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-MCP server helping models to understand your Nuxt app better.
+MCP server helping models to understand your Vite/Nuxt app better.
+
+This monorepo contains two packages:
+
+- [`nuxt-mcp`](./packages/nuxt-mcp) - A Nuxt module for adding MCP support to your Nuxt app.
+- [`vite-plugin-mcp`](./packages/vite-plugin-mcp) - A Vite plugin for adding MCP support to your Vite app.
+
+> [!IMPORTANT]
+> Experimental. Not ready for production.
 
 ## Sponsors
 
